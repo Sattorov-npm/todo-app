@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Oleo+Script+Swash+Caps&family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Poppins:ital@1&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  .App {
+    background: linear-gradient(
+    90deg,
+    rgb(46, 39, 52) 0%,
+    rgb(29, 24, 36) 100%
+  );
+  height:100vh;
+  }
+  h1 {
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+  }
+  .plus { 
+    background: linear-gradient(
+        90deg,
+        rgba(93, 12, 255, 1) 0%,
+        rgba(155, 0, 250, 1) 100%
+      );
+      border-radius: 10%;
+  }
+  .iconColor { 
+      color: rgb(255, 255, 255);
+  }
+  .list-group-item {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 118, 20, 1) 0%,
+      rgba(255, 84, 17, 1) 100%
+    );
+  }
+  .list-group-item:nth-child(1) {
+    background: linear-gradient(
+      90deg,
+      rgb(66, 164, 121) 0%,
+      rgb(102, 149, 55) 100%
+    );
+  }
+  
+  .list-group-item:nth-child(2) {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 12, 241, 1) 0%,
+      rgba(250, 0, 135, 1) 100%
+    );
+  }
+  
+  .list-group-item:nth-child(3) {
+    background: linear-gradient(
+      90deg,
+      rgb(128, 197, 246) 0%,
+      rgb(64, 123, 201) 100%
+    );
+  }
+  .list-group-item:nth-child(4) {
+    background: linear-gradient(
+      90deg,
+      rgb(183, 252, 185) 0%,
+      rgb(181, 208, 243) 100%
+    );
+  }
+  .list-group-item:nth-child(5) {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 118, 20, 1) 0%,
+      rgba(255, 84, 17, 1) 100%
+    );
+  }
+  
+  .list-group-item:nth-child(6) {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 12, 241, 1) 0%,
+      rgba(250, 0, 135, 1) 100%
+    );
+  }
+  
+  .list-group-item:nth-child(7) {
+    background: linear-gradient(
+      90deg,
+      rgb(128, 197, 246) 0%,
+      rgb(64, 123, 201) 100%
+    );
+  }
+  .list-group-item:nth-child(8) {
+    background: linear-gradient(
+      90deg,
+      rgb(183, 252, 185) 0%,
+      rgb(181, 208, 243) 100%
+    );
+  }
+  /* title top */
+  .title { 
+    margin-bottom:1rem;
+    border: 1px solid rgb(9, 140, 111);
+    border-radius:7px;
+    border-bottom: 2px solid rgb(9, 140, 111);
+    text-align: center;
+  }
+  .text { 
+    font-size: 10px;
+    text-align: center;
+  }
